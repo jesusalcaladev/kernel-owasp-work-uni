@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "types": ["node", "react"]
+  },
+  "include": ["src/**/*.{ts,tsx}", "exploits/**/*.{ts,tsx}", "run-exploits.tsx"]
+}
